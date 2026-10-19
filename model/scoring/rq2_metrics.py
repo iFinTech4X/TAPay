@@ -1,7 +1,6 @@
 """RQ2 metric implementations for the Payment-adapted TalkHier baseline.
 
-Implements the seven primary metrics exactly as specified in the project's
-RQ2 spec (docs/METRICS.md): Accuracy, Precision, Recall, F1 (per-class,
+Implements the seven primary metrics: Accuracy, Precision, Recall, F1 (per-class,
 macro, weighted), TSR (task success against the reviewed task contract),
 HF1 (unordered directed handoff-edge F1) and ASR (ordered transition
 multiset F1), plus the Strict TSR audit variant.
@@ -387,7 +386,8 @@ class WorkflowOutcome:
 
 # Per-baseline static reference workflows (literature baselines): the frozen
 # cases.jsonl only embeds workflow_reference.B000, so other baselines fall
-# back to data/workflow_refs/<workflow_key>.json (docs/RQ1_BASELINES.md).
+# back to an optional data/workflow_refs/<workflow_key>.json file.
+# Missing optional references remain missing; they are not inferred.
 _WORKFLOW_REFS_DIR = Path(__file__).resolve().parents[2] / "data" / "workflow_refs"
 _ref_cache: Dict[str, Optional[Dict[str, Any]]] = {}
 

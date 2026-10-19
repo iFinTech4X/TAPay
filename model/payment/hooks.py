@@ -19,8 +19,8 @@ that later method modules plug in without touching the skeleton:
     ledger snapshot.  It may adjust the decision (execute/wait/clarify/
     escalate).  B000: returns the decision unchanged.
 
-Any flag other than all-off raises NotImplementedError in the baseline build;
-this keeps B000 the only executable condition until the H modules land.
+Each enabled flag selects the corresponding H1, H2 or H3 implementation;
+disabled flags select the NoOp implementation for component ablations.
 """
 from __future__ import annotations
 

@@ -1,11 +1,11 @@
 """Internal experiment runner for TAPay; use the root main.py entry point.
 
 Usage (real provider):
-    python main.py --input data/cases.jsonl --output results/<run> \
+    python main.py --input datasets/hard_55.jsonl --output outputs/<run> --split all \
         --config-llm config/llm.ini
 
 Usage (offline replay validation, no API key needed):
-    python main.py --input data/cases.jsonl --output results/<run> --mock
+    python main.py --input datasets/hard_55.jsonl --output outputs/<run> --split all --mock
 
 The output directory must not exist unless --resume is given.
 """

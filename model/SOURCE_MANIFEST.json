@@ -47,7 +47,7 @@
   {
     "file": "model/payment/baselines/__init__.py",
     "source_sha256": "9911f5acefc4710013cdacf962f07915386c3ac90c5a27b1bd226046f9e01f2e",
-    "release_sha256": "b489c151e3ae0f437a1e4d9a44ad1ae777214606252f1129642dd3250b5b9541"
+    "release_sha256": "7aef698bfbd48135e30a9e77a44206e0bbb2b5d2c88c4d13e08c8cf15aae028a"
   },
   {
     "file": "model/payment/cases.py",
@@ -117,7 +117,7 @@
   {
     "file": "model/payment/hooks.py",
     "source_sha256": "edbef350584f70db29b38a56a5250bf34ba16aea327952733acfb9f6f72ff2a9",
-    "release_sha256": "16893dfbc0cc6e4f71116bf63f864e1c636733c55167532fb77f96baba94b6aa"
+    "release_sha256": "84f9d6df906da99549066a00a2f9c529b4288d9b73732f52777a00e01056acb6"
   },
   {
     "file": "model/payment/mock_replay.py",
@@ -162,7 +162,7 @@
   {
     "file": "model/run_experiment.py",
     "source_sha256": "6b357868dfcfd4c09043bd1a4019d763bf4f80d852ae34746ca74ceb64df37e3",
-    "release_sha256": "0b7f8e40fb7a573a6672f0c78965b843e8508aed0ec27875a51e082c8fc7f214"
+    "release_sha256": "c7f2cbeae78bca59ee009bc5ff162e50902c938b8c8588c82e0fadb499aabe2d"
   },
   {
     "file": "model/scoring/__init__.py",
@@ -182,6 +182,6 @@
   {
     "file": "model/scoring/rq2_metrics.py",
     "source_sha256": "d97e7282fa0577903acec02c529b4e648a943fc83f7bbe6c3e6f7e1a68544ef6",
-    "release_sha256": "d97e7282fa0577903acec02c529b4e648a943fc83f7bbe6c3e6f7e1a68544ef6"
+    "release_sha256": "d8a9f8880a95721cc1553a2090da174e5042e2fe4ff56a6ba5324fecd907881e"
   }
 ]

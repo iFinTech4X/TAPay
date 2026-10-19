@@ -7,7 +7,8 @@ requires editing shared files.
 
 ``b000`` (the TalkHier team runner) is the built-in default path and is
 intentionally NOT registered here; only non-B000 literature baselines live in
-this registry.  See docs/RQ1_BASELINES.md for the interface contract.
+this registry. The interface contract is defined by BaselineSpec below.
+This minimal release includes the built-in runner, without external baseline modules.
 """
 from __future__ import annotations
 
